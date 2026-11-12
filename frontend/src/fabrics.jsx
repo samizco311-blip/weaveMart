@@ -24,7 +24,7 @@ function Fabrics() {
         if (filters[key]) params.append(key, filters[key]);
       });
 
-      const res = await axios.get(`http://localhost:5000/api/fabrics?${params}`);
+      const res = await axios.get(`https://weavemart.onrender.com/api/fabrics?${params}`);
       setFabrics(res.data);
     } catch (error) {
       console.log(error);

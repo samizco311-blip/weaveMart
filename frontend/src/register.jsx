@@ -23,7 +23,7 @@ function Register(){
     const handleSubmit = async (e) =>{
         e.preventDefault();
         try {
-            const res = await axios.post("http://localhost:5000/api/customers/auth/register", formdata);
+            const res = await axios.post("https://weavemart.onrender.com/api/customers/auth/register", formdata);
             console.log(res.data);
             alert("Registration successful!");
 

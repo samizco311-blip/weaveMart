@@ -18,7 +18,7 @@
     const handleSubmit = async (e) => { 
         e.preventDefault();
          try {
-             const res = await axios.post("http://localhost:5000/api/customers/auth/login", formData);
+             const res = await axios.post("https://weavemart.onrender.com/api/customers/auth/login", formData);
    
     localStorage.setItem("accessToken", res.data.accesstokens);
     localStorage.setItem("refreshToken", res.data.refreshtoken);

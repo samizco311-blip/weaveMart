@@ -38,7 +38,7 @@ function Profile() {
     e.preventDefault();
     try {
       const res = await axios.patch(
-        "http://localhost:5000/api/customers/me",
+        "https://weavemart.onrender.com/api/customers/me",
         { name: profile.name, phone: profile.phone },
         { headers: { Authorization: `Bearer ${token}` } }
       );
