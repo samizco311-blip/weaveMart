@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 10%, #e4e8f0 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+.login-container{
+    width: 80vh;
+    max-width: 700px;
+    padding: 20px;
+    
+}
+.loginform{
+    background-color: white;
+    padding: 20px 36px 36px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    border: 1px solid #eee;
+}
+ .loginform h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+    margin-top: -60px;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+}
+.loginform p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    color: #cfd3db;
+    padding-bottom: 10px;
+}
+.logo{
+   width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.loginform input{
+    border: 1px solid #cfd3db;
+    margin-left: 20px;
+    margin-top: 7px;
+    border-radius: 5px;
+    padding: 7px 80px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.loginform button{
+    padding: 10px 108px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: #7c3aed;
+    color: white;
+    transition:  0.2s ease-in-out;
+}
+.loginform button:hover{
+    background-color: #4c1d95;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+.link{
+    margin-top: 10px;
+    text-align: center;
+}
