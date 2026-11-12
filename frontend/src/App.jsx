@@ -1,5 +1,6 @@
 
   import { BrowserRouter, Routes, Route } from "react-router-dom";
+  import { Navigate } from "react-router-dom";
   import Login from "./login";
   import Register from "./register";
   import Fabrics from "./fabrics";
@@ -9,6 +10,7 @@
     return (
       <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Navigate to="/Login"/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/fabrics" element={<Fabrics/>}/>
